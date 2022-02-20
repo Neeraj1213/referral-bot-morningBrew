@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001645200183195*8083252434316269584,z0000001645200183403*6261514538801473717,z0000001645200183525*5549398647265352649,z0000001645201843682*1481144363818762312</id>
+	<updated>2022-02-20T02:33:00Z</updated>
+	<author>
+		<name>mainref farmer</name>
+		<email>poggamer233@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001645200183195*8083252434316269584</id>
+		<updated>2022-02-20T02:33:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='crew@morningbrew.com'/>
+		<apps:property name='subject' value='Hi there, your friend thought we should meet'/>
+		<apps:property name='hasTheWord' value='confirm'/>
+		<apps:property name='label' value='Morning Brew Confirmations'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001645200183403*6261514538801473717</id>
+		<updated>2022-02-20T02:33:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='crew@morningbrew.com'/>
+		<apps:property name='subject' value='caution'/>
+		<apps:property name='hasTheWord' value='caution'/>
+		<apps:property name='label' value='Morning Brew Success'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001645200183525*5549398647265352649</id>
+		<updated>2022-02-20T02:33:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='crew@morningbrew.com'/>
+		<apps:property name='hasTheWord' value='your referral count'/>
+		<apps:property name='label' value='Morning Brew Newsletters'/>
+		<apps:property name='shouldMarkAsRead' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001645201843682*1481144363818762312</id>
+		<updated>2022-02-20T02:33:00Z</updated>
+		<content></content>
+		<apps:property name='from' value='crew@morningbrew.com'/>
+		<apps:property name='hasTheWord' value='Austin at Morning Brew'/>
+		<apps:property name='label' value='Morning Brew Redeem'/>
+		<apps:property name='shouldStar' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
