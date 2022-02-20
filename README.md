@@ -20,7 +20,7 @@
 1. git clone https://github.com/i0Z3R0/MorningBrew-Referral-Bot.git
 2. cd MorningBrew-Referral-Bot
 3. pip3.9 install -r requirements.txt
-4. Configure settings in settings.json
+4. Configure settings in settings.json (more info at very bottom of this file)
 5. python3 main.py
 6. python3 confirm.py
 #### Note: ChromeDriver is NOT required, webdriver_manager will automatically download the matching version of ChromeDriver for your OS.
