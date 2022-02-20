@@ -6,7 +6,7 @@
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Setup for Idiots](#setup-for-idiots)
+- [Gmail Setup for Idiots](#gmail-setup-for-idiots)
 - [About](#about)
 - [Overview of Features](#overview-of-features)
 - [Detailed Overview](#detailed-overview)
@@ -26,7 +26,18 @@
 6. python3 confirm.py
 #### Note: ChromeDriver is NOT required, webdriver_manager will automatically download the matching version of ChromeDriver for your OS.
 
-# Setup for Idiots
+# Gmail Setup for Idiots
+Assuming you have the program all downloaded and everything is ready to go, this will teach you how to setup a new Gmail account specifically for the purpose of farming referrals, with custom filters and settings to speed up the process of referral farming.
+1. Create a new Gmail account. No, seriously. Using your main account will completely overflow it, and trust me it's not good. Just create a new Google account (you know how to do this), make sure the email length is somewhat long (mine is brewgamer233@gmail.com) and create an account.
+2. Change the settings.
+  - Inbox Type: Unread first
+  - Email Threading: Untick conversation view (this is very important for automatic confirmations)
+  - Keyboard shortcuts: On (click on See all settings, scroll down in the "General" tab and make sure to click on save changes at the bottom).
+3. Import filters.
+  - In the directory of this program, there is a file "emailFilters.xml"
+  - Go to the "Filters and Blocked Addresses" tab in the settings of your Gmail account.
+  - Click on "Import Filters", and choose the "emailFilters.xml" file
+  - You should know how to do the rest from here... just click import and stuff lol
 
 # About
 This is a single-purpose bot to gain you a lot of referrals on Morning Brew. When you get enough referrals, it can be exchanged for free merchandise from Morning Brew, including notebooks, water bottles, shirts, and more.
