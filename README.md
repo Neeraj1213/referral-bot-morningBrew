@@ -28,11 +28,14 @@
 
 # Gmail Setup for Idiots
 Assuming you have the program all downloaded and everything is ready to go, this will teach you how to setup a new Gmail account specifically for the purpose of farming referrals, with custom filters and settings to speed up the process of referral farming.
+
 1. Create a new Gmail account. No, seriously. Using your main account will completely overflow it, and trust me it's not good. Just create a new Google account (you know how to do this), make sure the email length is somewhat long (mine is brewgamer233@gmail.com) and create an account.
+
 2. Change the settings.
   - Inbox Type: Unread first
   - Email Threading: Untick conversation view (this is very important for automatic confirmations)
   - Keyboard shortcuts: On (click on See all settings, scroll down in the "General" tab and make sure to click on save changes at the bottom).
+
 3. Import filters.
   - In the directory of this program, there is a file "emailFilters.xml"
   - Go to the "Filters and Blocked Addresses" tab in the settings of your Gmail account.
