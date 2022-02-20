@@ -6,6 +6,7 @@
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
+- [Setup for Idiots](#setup-for-idiots)
 - [About](#about)
 - [Overview of Features](#overview-of-features)
 - [Detailed Overview](#detailed-overview)
@@ -24,6 +25,8 @@
 5. python3 main.py
 6. python3 confirm.py
 #### Note: ChromeDriver is NOT required, webdriver_manager will automatically download the matching version of ChromeDriver for your OS.
+
+# Setup for Idiots
 
 # About
 This is a single-purpose bot to gain you a lot of referrals on Morning Brew. When you get enough referrals, it can be exchanged for free merchandise from Morning Brew, including notebooks, water bottles, shirts, and more.
