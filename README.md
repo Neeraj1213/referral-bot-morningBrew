@@ -31,7 +31,7 @@ This is a single-purpose bot to gain you a lot of referrals on Morning Brew. Whe
 
 The program uses ChromeDriver and Selenium to automate the action of gaining referrals. It exploits the "Gmail Dot Trick" to generate tons of email addresses that Morning Brew thinks are different, but are all sent to your single inbox.
 
-A folder "Proof" also exists, with photos and a video showcasing all the items I have received and the referrals I have botted. 
+A folder "Proofs" also exists, with photos and a video showcasing all the items I have received and the referrals I have botted. 
 
 # Gmail Setup for Idiots
 Assuming you have the program all downloaded and everything is ready to go, this will teach you how to setup a new Gmail account specifically for the purpose of farming referrals, with custom filters and settings to speed up the process of referral farming.
