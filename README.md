@@ -6,8 +6,8 @@
 - [Table of Contents](#table-of-contents)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Gmail Setup for Idiots](#gmail-setup-for-idiots)
 - [About](#about)
+- [Gmail Setup for Idiots](#gmail-setup-for-idiots)
 - [Overview of Features](#overview-of-features)
 - [Detailed Overview](#detailed-overview)
 
@@ -26,6 +26,13 @@
 6. python3 confirm.py
 #### Note: ChromeDriver is NOT required, webdriver_manager will automatically download the matching version of ChromeDriver for your OS.
 
+# About
+This is a single-purpose bot to gain you a lot of referrals on Morning Brew. When you get enough referrals, it can be exchanged for free merchandise from Morning Brew, including notebooks, water bottles, shirts, and more.
+
+The program uses ChromeDriver and Selenium to automate the action of gaining referrals. It exploits the "Gmail Dot Trick" to generate tons of email addresses that Morning Brew thinks are different, but are all sent to your single inbox.
+
+A folder "Proof" also exists, with photos and a video showcasing all the items I have received and the referrals I have botted. 
+
 # Gmail Setup for Idiots
 Assuming you have the program all downloaded and everything is ready to go, this will teach you how to setup a new Gmail account specifically for the purpose of farming referrals, with custom filters and settings to speed up the process of referral farming.
 
@@ -41,11 +48,6 @@ Assuming you have the program all downloaded and everything is ready to go, this
   - Go to the "Filters and Blocked Addresses" tab in the settings of your Gmail account.
   - Click on "Import Filters", and choose the "emailFilters.xml" file
   - You should know how to do the rest from here... just click import and stuff lol
-
-# About
-This is a single-purpose bot to gain you a lot of referrals on Morning Brew. When you get enough referrals, it can be exchanged for free merchandise from Morning Brew, including notebooks, water bottles, shirts, and more.
-
-The program uses ChromeDriver and Selenium to automate the action of gaining referrals. It exploits the "Gmail Dot Trick" to generate tons of email addresses that Morning Brew thinks are different, but are all sent to your single inbox.
 
 # Overview of Features
 - Generates email addresses using your main address
