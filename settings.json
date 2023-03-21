@@ -1,7 +1,7 @@
 {
-  "refLink": "https://morningbrew.com/daily/r/?kid=XXXXXXXX",
-  "baseEmail": "email@gmail.com",
-  "count": 50,
+  "refLink": "https://www.morningbrew.com/daily/r?kid=36e1023c",
+  "baseEmail": "brewmaster2414@gmail.com",
+  "count": 600,
   "headlessMode": true,
-  "generate": true
+  "generate": false
 }

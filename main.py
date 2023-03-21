@@ -75,9 +75,11 @@ def run():
 	os.system('clear')
 	print(f'{total - 1} Emails Entered')
 	print(f'{total - successful} Emails Failed')
-	driver.get(setting['refLink'])
+	driver.get('https://www.morningbrew.com/daily/r?kid=36e1023c')
 	driver.implicitly_wait(1)
-	emailInput = driver.find_element(By.XPATH, '//*[@id="__next"]/div[1]/div[2]/div[2]/form/input')
+	
+	emailInput = driver.find_element(By.XPATH, '//*[@id="__next"]/div[1]/div[2]/div[2]/div/form/input')
+
 	# confirmButton = driver.find_element(By.XPATH, '//*[@id="__next"]/div[1]/div[2]/div[2]/form/button')
 	emailToUse = linecache.getline('emails.txt', total)
 	emailInput.send_keys(emailToUse)
@@ -90,7 +92,7 @@ def run():
 	total += 1
 	while True:
 		try:
-			driver.find_element(By.XPATH, '//*[@id="__next"]/div[1]/div/div/h2')
+			jtopy
 			successful += 1
 			print("Success")
 			break
@@ -103,9 +105,6 @@ def run():
 
 	# NOT WORKING
 	# Confirm Subscription
-	#driver.get("https://www.morningbrew.com/daily/welcome?email=" + emailToUse.strip('\n'))
-	#time.sleep(3)
-
 	driver.quit()
 
 for i in range(int(setting['count'])):
